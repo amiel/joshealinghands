@@ -169,3 +169,6 @@ img.float-left {
 #header a#contact_link:hover {
 	background-position: -355px -21px;
 }
+
+
+ul{ list-style: inside; }
