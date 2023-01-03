@@ -102,13 +102,6 @@ img.float-left {
   font-size: 1.1rem;
 }
 
-.map_info {
-  float:left;
-  clear:left;
-  margin: 0 30px;
-  width: 400px;
-}
-
 #map {
   float: left;
   margin: 0 30px;

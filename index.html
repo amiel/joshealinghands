@@ -9,26 +9,9 @@
   <title>Jo's Healing Hands :: Licensed Massage Therapist in La Conner, Washington</title>
 
   <link href="screen.css" rel="stylesheet" type="text/css" />
-  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAHBYCY-5zYgYgZ38Jam-5nxR2_YHUPnqcRcrJit0KJcOp2jsGYhSDps43oOItQXB6EjifNEIrqm4CyA" type="text/javascript"></script>
-  <script type="text/javascript">
-
-  //<![CDATA[
-
-  function load() {
-    if (GBrowserIsCompatible()) {
-      var map = new GMap2(document.getElementById("map"));
-      map.setCenter(new GLatLng(48.392829,-122.49), 15);
-      map.addControl(new GSmallMapControl());
-      var marker = new GMarker(new GLatLng(48.391315, -122.495711));
-      map.addOverlay(marker);
-    }
-  }
-
-  //]]>
-  </script>
 
 </head>
-<body onload="load()" onunload="GUnload()">
+<body>
   <div id="container">
     <div id="header">
       <a id="about_link" href="#about"></a>
@@ -168,9 +151,19 @@
         LaConner, WA<br />
       </p>
 
+  <!-- function load() { -->
+  <!--     map.setCenter(new GLatLng(48.392829,-122.49), 15); -->
+  <!--     map.addControl(new GSmallMapControl()); -->
+  <!--     var marker = new GMarker(new GLatLng(48.391315, -122.495711)); -->
+  <!--   } -->
+  <!-- } -->
 
-      <div id="map"></div>
-      <small class="map_info">this map is interactive, please feel free to look around</small>
+
+
+      <div id="map">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=48.392829,-122.49&zoom=15&size=300x400&key=AIzaSyCSL2mG3VKsqCKCjAHRuX7WJNvk20QeX-M"/>
+      </div>
+
       <p>
         The Cross Roads building offers many other services:
         <ul>
